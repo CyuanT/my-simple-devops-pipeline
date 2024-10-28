@@ -12,9 +12,9 @@ jobs:
   Terraform-Apply:
     if: github.event.pull_request.merged
     runs-on: ubuntu-latest
-    defaults:
-      run:
-        working-directory: terraform
+    # defaults:
+    #   run:
+    #     working-directory: terraform
 
     steps:
       - uses: actions/checkout@v3
