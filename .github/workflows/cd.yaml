@@ -12,7 +12,6 @@ on:
 
 jobs:
   Terraform-Apply:
-    needs: Terraform-Checks
     runs-on: ubuntu-latest
     defaults:
       run:
