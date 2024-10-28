@@ -6,7 +6,7 @@ terraform {
     # key    = var.backend_conf["key"] #Change the value of this to <your suggested name>.tfstate for  example
     # region = var.backend_conf["region"]
 
-    bucket = "ce7-ty-pipeline"
+    bucket = "sctp-ce7-tfstate"
     key    = "ce7-TanYuan-pipe.tfstate" #Change the value of this to <your suggested name>.tfstate for  example
     region = "us-east-1"
   }
